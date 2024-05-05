@@ -1,0 +1,16 @@
+# Función para determinar si un número es par o impar
+function es-par {
+  param (
+    [int]$num
+  )
+
+  # Determinar si el número es par o impar
+  if ($num % 2 -eq 0) {
+    Write-Host "El número es par"
+  } else {
+    Write-Host "El número es impar"
+  }
+}
+
+# Llamar a la función con un número
+es-par -num 10
