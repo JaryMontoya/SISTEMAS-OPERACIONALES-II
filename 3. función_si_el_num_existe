@@ -2,7 +2,7 @@
 $numeros = @(1,2,3,4,5,6,7,8,9,10)
 
 # Función para determinar si un número existe en el arreglo
-function existe-numero {
+function existe_numero {
   param (
     [int]$num
   )
@@ -25,5 +25,5 @@ function existe-numero {
 }
 
 # Llamar a la función con un número
-existe-numero -num 5
+existe_numero -num 5
 

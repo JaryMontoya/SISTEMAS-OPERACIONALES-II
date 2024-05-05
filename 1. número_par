@@ -1,5 +1,5 @@
-# Función para determinar si un número es par o impar
-function es-par {
+# Crear una funcion que me diga si un número es par o no
+function es_par {
   param (
     [int]$num
   )
@@ -13,4 +13,4 @@ function es-par {
 }
 
 # Llamar a la función con un número
-es-par -num 10
+es_par -num 10
